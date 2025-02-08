@@ -33,11 +33,11 @@ The website includes the following sections:
 │   ├── mahnoor.png     // Image for about us member1
 │   ├── hajra.jpg       // Image for about us member1
 │   ├── links           // Other images are from google copy link from main file and paste it in goggle to download image
-├── about.html         
-├── contact.html       
-├── services.html      
-├── services.html      
-├── services.html      
+├── about.html          //html file
+├── contact.html        //html file
+├── services.html       //html file
+├── hajra.html          //detailed about us member 1 html file
+├── mahnoor.html        //detailed about us member 1 html file
 
 ## Features
 
