@@ -1,0 +1,201 @@
+.about-us {
+    text-align: center;
+    margin: 20px;
+  }
+  .a{ text-decoration: none;}
+  
+  .bios {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .bio {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: #ffffff; 
+    background-color: #b4b5b7; 
+  }
+  
+  .bio img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .contact-form {
+    margin: 30px;
+    text-align: center;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  
+  .bio-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .bio-info {
+    color: #f3f5f8;
+  }
+  
+  .bio-info p {
+    font-size: 1em;
+  }
+  .contact-form {
+  margin: 30px;
+  text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
+
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+}
+body {
+  background-color: #f0f0f0; /* Optional background color for the entire page */
+}
+
+.footer {
+  background-color: #faf8f6;
+  margin: 0 auto;
+  text-align:center;
+  border-radius: 10px; /* Optional border radius */
+  padding: 1px;
+}
+
+.contact-info .social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #e2e4db;
+}
+.about-us {
+  text-align: center;
+  margin: 20px;
+}
+
+.bios {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.bio {
+  margin: 20px;
+  padding: 10px;
+  background-color: rgb(11, 10, 10);
+  border: 1px solid #060505;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: #ddaf92; 
+  background-color: #9f8557; 
+}
+
+.bio img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.bio-info h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.bio-info {
+  color: #000000;
+}
+
+.bio-info p {
+  font-size: 1em;
+  color:#010101;
+}
+/* Services Section */
+.services {
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  color: #ffffff; 
+  margin-bottom: 30px;
+}
+
+.service-card {
+  background-color: #1812126f;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h2 {
+  font-size: 1.8rem;
+  color: #fdfdfd;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #e5cece;
+  line-height: 1.6;
+}
+body {
+  background-color: #f0f0f0; /* Optional background color for the entire page */
+}
+
+.footer {
+  background-color: #ffffff;
+  margin: 0 auto;
+  text-align:center;
+  border-radius: 10px; /* Optional border radius */
+  padding: 2px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .service-card {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .services {
+    padding: 30px 10px;
+  }
+
+  .services-title {
+    font-size: 2rem;
+  }
+}

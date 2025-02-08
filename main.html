@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop Bliss</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #c2966a;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #4b3224;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .left-section {
+      flex: 2;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .left-section h2 {
+      font-size: 20px;
+      color: #6f4e37;
+    }
+
+    .left-section p {
+      margin-top: 10px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .image-grid {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .image-grid img {
+      width: 100%;
+      max-width: calc(33.333% - 10px);
+      border-radius: 4px;
+    }
+
+    .right-section {
+      flex: 3;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      color: #6f4e37;
+      margin: 10px 0;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* About Us Section Styling */
+    .about-us {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .about-us-container {
+      background-color: white;
+      border-radius: 50%;
+      padding: 20px;
+      width: 200px;
+      height: 200px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .about-us-image {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .about-us-text {
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Coffee Shop Bliss
+  </header>
+
+  <nav>
+    <a href="contact.html">Contact Us</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+  </nav>
+
+  <div class="container">
+    <div class="left-section">
+      <h2>Welcome to Coffee Shop Bliss</h2>
+      <p>Welcome to Coffee Shop Bliss, your perfect retreat for great coffee and warm hospitality. From classic brews to innovative creations, we craft every cup with care. Relax in our cozy atmosphere and enjoy our diverse menu of beverages and snacks.</p>
+      <div class="image-grid">
+        <img src="https://i.pinimg.com/564x/c0/5e/e3/c05ee315db894e1d6caff81c0d7d45dc.jpg" alt="Coffee Cup">
+        <img src="https://i.pinimg.com/originals/64/8e/8b/648e8b9d23fe0c1275f4e50bb246613c.jpg" alt="Coffee Beans">
+        <img src="https://i.pinimg.com/564x/9d/0b/1e/9d0b1e29e3c6350be49db4795b1d3ad2.jpg" alt="Barista Making Coffee">
+      </div>
+    </div>
+
+    <div class="right-section">
+      <div class="card">
+        <img src="https://thumbs.dreamstime.com/b/creamy-espresso-sunlit-aesthetic-setting-ai-generated-347998226.jpg" alt="Espresso">
+        <h3>Espresso</h3>
+        <p>Rich and intense, our espresso is the heart of all coffee creations.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4F3cujk-c3kvSLTvzIEzwzLlIqcDFZCaLfQ&s" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>A perfect blend of espresso, steamed milk, and frothy foam.</p>
+      </div>
+      <div class="card">
+        <img src="https://distefano.com.au/cdn/shop/articles/Diff_between_iced_coffee_vs_latte_960x719_7330149a-cd3c-4a5f-bf31-068de1414339.png?v=1666526776" alt="Latte">
+        <h3>Latte</h3>
+        <p>Smooth and creamy, crafted to perfection with espresso and milk.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTlwLD9EZkHgTb0Lluatbcvs6DC_rtyuZQyA&s" alt="Mocha">
+        <h3>Mocha</h3>
+        <p>A delightful fusion of chocolate and coffee for a sweet treat.</p>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV7ts9kxKvg1RZobTQA_6kc3E6b38prUxNAg&s" alt="Cold Brew">
+        <h3>Cold Brew</h3>
+        <p>Slow-steeped for a smooth, refreshing coffee experience.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2023 Coffee Shop Bliss
+  </footer>
+
+  <div class="container">
+    <div class="left-section">
+      <h2>Our Services</h2>
+      <p>At Coffee Shop Bliss, we offer a wide range of services including customized coffee blends, barista training, and catering for special events. Experience our dedication to coffee excellence.</p>
